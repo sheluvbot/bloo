@@ -1,0 +1,125 @@
+<html>
+
+<head>
+  <meta content="Private Biolink" property="og:title">
+  <meta content property="og:description">
+  <meta content="images/jxmo7ny67x771.gif" property="og:image">
+  <meta content="#df0704" data-react-helmet="true" name="theme-color">
+
+  <meta content="3778" property="og:title">
+  <meta content property="og:description">
+  <meta content="images/jxmo7ny67x771.gif" property="og:image">
+  <meta content="#000000" data-react-helmet="true" name="theme-color">
+
+  <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1220930034575872022/1245196523290103892/bitch_hanging_sketch_2.0-BLOO.png?ex=6657df21&is=66568da1&hm=69f63f371a2f28212a7333b5d4d4c2cd82f3f7940447f0c92a81b8ad33ed17fd&">
+  <title>rope.rip</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script protect src="https://eslut.ing/js/protect.js"></script>
+  <script src="https://eslut.ing/js/script.js"></script>
+  <script src="anti-inspect-element.js"></script>
+  <script src="https://eslut.ing/js/funny.js"></script>
+</head>
+
+<body>
+  <div class="overlay" id="overlay">
+    <div class="proceed-button" onclick="removeOverlay(); playMusic()">𐕣</div>
+    </div>
+
+    <style>
+    
+      @font-face {
+        font-family: 'Help Me';
+        src: url('fonts/HelpMe.ttf') format('truetype');
+      }       
+
+      @font-face {
+        font-family: 'artifact';
+        src: url('fonts/artifact.ttf') format('truetype');
+      }
+      </style>
+
+    <div class="container">
+      <h1>rope.rip</h1>
+      <p>Private Biolink</p>
+      <div id="main">   
+        <center><h3>
+          <a href="https://discord.gg/murderous" target="_blank">3778 | Owners | Passived</a><br>
+          </h3></center>
+          <p>Members of 5005</p>
+      </div>
+    </div><noscript>You must enable JavaScript to see this text.</noscript>
+    <div id="clock"></div>
+    <script>
+      function removeOverlay() {
+        var overlay = document.getElementById("overlay");
+        overlay.style.display = "none";
+      }
+
+      function updateClock() {
+        const now = new Date();
+        const options = {
+          hour12: true,
+          hour: 'numeric',
+          minute: '2-digit',
+          second: '2-digit'
+        };
+        const formattedTime = now.toLocaleTimeString('en-US', options);
+        document.getElementById('clock').textContent = formattedTime;
+      }
+
+      setInterval(updateClock, 1000);
+
+      function createBloodSparks() {
+        const numSparks = Math.floor(Math.random() * 5) + 1;
+        for (let i = 0; i < numSparks; i++) {
+          const bloodSpark = document.createElement('div');
+          bloodSpark.classList.add('blood-spark');
+          bloodSpark.style.left = `${Math.random() * window.innerWidth}px`;
+          document.body.appendChild(bloodSpark);
+
+          setTimeout(() => {
+            bloodSpark.remove();
+          }, 6000);
+        }
+      }
+
+      setInterval(createBloodSparks, 1000);
+    </script>
+    <script>
+      function playMusic() {
+        var audio = new Audio('https://cdn.discordapp.com/attachments/1219072304127017041/1245224348885844059/IC3P3AK_Sad_Bitch_slowed_reverb.mp3?ex=6657f90b&is=6656a78b&hm=e0c9223b4dafddf012305c621e2a37cab3702e9676b757b06618bf016bd82836&');
+        audio.play();
+      }
+    </script>
+
+    <div class="snowflakes fade-in">
+      <div class="snowflake">⛥</div>
+      <div class="snowflake">†</div>
+      <div class="snowflake">⛥</div>
+      <div class="snowflake">†</div>
+      <div class="snowflake">⛥</div>
+      <div class="snowflake">†</div>
+      <div class="snowflake">⛥</div>
+      <div class="snowflake">†</div>
+      <div class="snowflake">⛥</div>
+      <div class="snowflake">†</div>
+      <div class="snowflake">⛥</div>
+    </div>
+
+    <div class="blood-spark" style="left: 1003.77px;"></div>
+    <div class="blood-spark" style="left: 1861.42px;"></div>
+    <div class="blood-spark" style="left: 1011.6px;"></div>
+    <div class="blood-spark" style="left: 1878.73px;"></div>
+    <div class="blood-spark" style="left: 601.029px;"></div>
+    <script>
+        var titles = ["Slut", "Whore", "Cut Me", "Kinky!", "Princess?", "Cut Whore?", "C4C", "Extortion", "666", "FUCK YOU!", "B4B", "3778", "5005", "Satan", "GOD", "<3"];
+        var currentTitleIndex = 0;
+        function changeTitle() {
+            document.title = titles[currentTitleIndex];
+            currentTitleIndex = (currentTitleIndex + 1) % titles.length;
+        }
+        setInterval(changeTitle, 300);
+    </script>
+</body>
+
+</html>
